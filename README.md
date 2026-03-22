@@ -24,6 +24,50 @@ This project demonstrates the implementation of a Security Operations Center (SO
 
 ---
 
+                        ┌──────────────────────────────┐
+                        │        Attacker Machine      │
+                        └──────────────┬───────────────┘
+                                       │
+                                       ▼
+                             Internet (AWS)
+                                       │
+                        ┌──────────────▼──────────────┐
+                        │     SOC VPC (AWS EC2)       │
+                        │     CIDR: 172.31.0.0/16     │
+                        │                             │
+                        │  ┌───────────────────────┐  │
+                        │  │   Windows Server AD    │  │
+                        │  │   (Domain Controller)  │  │
+                        │  │   Splunk Forwarder     │  │
+                        │  └──────────┬────────────┘  │
+                        │             │ Logs           │
+                        │             ▼                │
+                        │  ┌───────────────────────┐  │
+                        │  │   Ubuntu Web Server    │  │
+                        │  │   Apache2              │  │
+                        │  │   Splunk Forwarder     │  │
+                        │  └──────────┬────────────┘  │
+                        │             │ Logs           │
+                        │             ▼                │
+                        │  ┌───────────────────────┐  │
+                        │  │   Splunk Enterprise    │  │
+                        │  │   (SIEM Server)        │  │
+                        │  │   Port 8000 (Web UI)   │  │
+                        │  │   Port 9997 (Receiver) │  │
+                        │  └──────────┬────────────┘  │
+                        │             │                │
+                        └─────────────┼────────────────┘
+                                      │
+                                      ▼
+                             SOC Analyst (You)
+
+## 🔍 Description
+
+- Windows Server AD sends logs via Splunk Universal Forwarder  
+- Ubuntu Web Server (Apache2) sends access logs  
+- Splunk Enterprise collects and analyzes logs  
+- SOC Analyst monitors logs via Splunk Web UI  
+
 ## 📊 Log Sources
 
 | Source | Logs |
