@@ -80,11 +80,6 @@ http://localhost:8000
 
 ---
 
-### Step 5 — Access Splunk Web Interface
-
-Open browser and navigate to:
-
----
 
 ### Step 5 — Access Splunk Web Interface
 
@@ -96,13 +91,6 @@ Login with the admin credentials created during installation.
 
 ---
 
-### Step 6 — Enable Log Receiving on Port 9997
-
-Inside Splunk Web UI:
-
-Login with the admin credentials created during installation.
-
----
 
 ### Step 6 — Enable Log Receiving on Port 9997
 
