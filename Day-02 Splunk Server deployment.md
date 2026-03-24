@@ -112,7 +112,7 @@ Login with the admin credentials created during installation.
 ### Step 6 — Enable Log Receiving on Port 9997
 
 Inside Splunk Web UI:
-Settings → Forwarding and Receiving → Configure Receiving → New Receiving Port → 999
+Settings → Forwarding and Receiving → Configure Receiving → New Receiving Port → 9997
 
 
 This opens port 9997 to receive logs from Universal Forwarders installed on endpoint machines.
