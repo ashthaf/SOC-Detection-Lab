@@ -101,7 +101,7 @@ http://localhost:8000
 ### Step 5 — Access Splunk Web Interface
 
 Open browser and navigate to:
-http://<EC2 Public IP >:8000
+http://EC2 Public IP:8000
 
 
 Login with the admin credentials created during installation.
