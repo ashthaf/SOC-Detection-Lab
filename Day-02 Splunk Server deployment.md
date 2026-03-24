@@ -41,11 +41,7 @@ Splunk Enterprise was deployed on a Windows EC2 instance inside the custom SOC-V
                  └────────────────────────────┘
 
 
-<p align="center">
-  <img src="assets/splunk-architecture.png" width="800">
-</p>
 
----
 
 ## ⚙️ EC2 Instance Configuration
 
