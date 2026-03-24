@@ -14,10 +14,31 @@ Splunk Enterprise was deployed on a Windows EC2 instance inside the custom SOC-V
 ---
 
 ## 🏗️ Architecture
-
-Active Directory Server ──┐
-├──► Splunk Universal Forwarder ──► Splunk Server (EC2) ──► SOC Analyst
-Ubuntu Web Server ───────┘ Port 9997 (receiving) Port 8000 (UI)
+                 ┌────────────────────────────┐
+                 │   Active Directory Server   │
+                 │   (Windows + UF)           │
+                 └────────────┬───────────────┘
+                              │
+                              │ Logs (UF)
+                              ▼
+                 ┌────────────────────────────┐
+                 │     Ubuntu Web Server      │
+                 │     (Apache + UF)          │
+                 └────────────┬───────────────┘
+                              │
+                              │ Logs (UF)
+                              ▼
+                 ┌────────────────────────────┐
+                 │   Splunk Enterprise (EC2)  │
+                 │   Port 9997 (Receiving)    │
+                 │   Port 8000 (Web UI)       │
+                 └────────────┬───────────────┘
+                              │
+                              ▼
+                 ┌────────────────────────────┐
+                 │        SOC Analyst         │
+                 │     (Monitoring via UI)    │
+                 └────────────────────────────┘
 
 
 <p align="center">
