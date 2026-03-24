@@ -52,7 +52,7 @@ Splunk Enterprise was deployed on a Windows EC2 instance inside the custom SOC-V
 | Network | SOC-VPC |
 | Subnet | SOC-Public-Subnet |
 | Auto-assign Public IP | Enabled |
-| Storage | 30GB gp2 |
+| Storage | 50GB gp2 |
 
 ---
 
