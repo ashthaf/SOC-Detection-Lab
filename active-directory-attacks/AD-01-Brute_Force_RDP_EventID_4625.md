@@ -90,9 +90,7 @@ index="main" EventCode=4625
 
 ## 🖼️ Screenshots
 
-> Add your Splunk screenshots showing:
->
-> * Failed login attempts
+> * Failed login attempts = (../assets/log in fail.png)
 > * Source IP
 > * Detection results
 
