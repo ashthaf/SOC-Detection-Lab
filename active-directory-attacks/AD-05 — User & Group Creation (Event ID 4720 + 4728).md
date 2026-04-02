@@ -1,3 +1,6 @@
+![Splunk](https://img.shields.io/badge/SIEM-Splunk-green)
+![Windows](https://img.shields.io/badge/Logs-Windows%20Security-blue)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red)
 # 🔵 AD-05 — User & Privileged Group Creation (Event ID 4720 + 4728)
 
 ---
