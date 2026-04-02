@@ -1,6 +1,8 @@
-![Splunk](https://img.shields.io/badge/SIEM-Splunk-green)
-![Windows](https://img.shields.io/badge/Logs-Windows%20Security-blue)
-![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red)
+![MITRE](https://img.shields.io/badge/MITRE-T1098-red)
+![EventID](https://img.shields.io/badge/EventID-4728-blue)
+![Severity](https://img.shields.io/badge/Severity-Critical-red)
+![Platform](https://img.shields.io/badge/Platform-Active%20Directory-purple)
+![SIEM](https://img.shields.io/badge/SIEM-Splunk-green)
 # 🔴 AD-03 — Privilege Escalation via Domain Admin Group (Event ID 4728)
 
 ---
