@@ -1,6 +1,8 @@
-![Splunk](https://img.shields.io/badge/SIEM-Splunk-green)
-![Windows](https://img.shields.io/badge/Logs-Windows%20Security-blue)
-![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red)
+![MITRE](https://img.shields.io/badge/MITRE-T1110-red)
+![EventID](https://img.shields.io/badge/EventID-4740-blue)
+![Severity](https://img.shields.io/badge/Severity-Medium-yellow)
+![Platform](https://img.shields.io/badge/Platform-Active%20Directory-purple)
+![SIEM](https://img.shields.io/badge/SIEM-Splunk-green)
 # 🟠 AD-02 — Account Lockout Detection (Event ID 4740)
 
 ---
