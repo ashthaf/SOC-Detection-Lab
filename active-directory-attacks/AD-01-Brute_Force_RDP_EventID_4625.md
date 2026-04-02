@@ -96,8 +96,8 @@ Login Failure
 Brute SPL
 ![SPL](../assets/brute-spl.png)
 
-
-> * Detection results
+Brute Triggered
+![triggered](../assets/brute-triggered.png)
 
 ---
 
