@@ -109,7 +109,7 @@ SOC analysts correlate:
 
 ### 🔹 Splunk Detection Output
 
-![Detection](../assets/lockout-triggered.png)
+![Detection](../assets/AD-lockout.png)
 
 ---
 
