@@ -90,7 +90,7 @@ index="main" EventCode=4625
 
 ## 🖼️ Screenshots
 
-![Failed Login](../assets/log in fail.png)
+![Failed Login](assets/log in fail.png)
 > * Source IP
 > * Detection results
 
