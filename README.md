@@ -110,6 +110,9 @@ This project demonstrates the implementation of a Security Operations Center (SO
 - Windows Server (AD)
 
 ---
+## 🛡️ Active Directory Attacks
+
+👉 [View Active Directory Attack Lab](active-directory-attacks/README.md)
 
 ## 👨‍💻 Author
 
