@@ -92,7 +92,11 @@ index="main" EventCode=4625
 Login Failure 
 
 ![Failed Login](../assets/login-fail.png)
-> * Source IP
+
+Brute SPL
+![SPL](assets/brute-spl.png)
+
+
 > * Detection results
 
 ---
