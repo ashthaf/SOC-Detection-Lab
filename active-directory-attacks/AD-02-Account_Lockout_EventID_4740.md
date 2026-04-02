@@ -111,6 +111,8 @@ SOC analysts correlate:
 
 ![Detection](../assets/AD-lockout.png)
 
+### 🔹 Splunk Triggered
+![triggered](
 ---
 
 ## 📚 Analysis
