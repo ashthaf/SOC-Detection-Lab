@@ -1,3 +1,6 @@
+![Splunk](https://img.shields.io/badge/SIEM-Splunk-green)
+![Windows](https://img.shields.io/badge/Logs-Windows%20Security-blue)
+![MITRE](https://img.shields.io/badge/MITRE-ATT%26CK-red)
 # 🛡️ Active Directory Attack Detection Lab
 
 This section of the SOC Detection Lab focuses on simulating and detecting real-world Active Directory attacks using Splunk SIEM.
