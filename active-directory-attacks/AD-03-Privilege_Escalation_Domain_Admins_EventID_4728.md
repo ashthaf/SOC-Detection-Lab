@@ -102,11 +102,14 @@ index="main" EventCode=4728 Group_Name="Domain Admins"
 
 ### 🔹 Privilege Escalation Event
 
-![Event](../assets/priv-spl.png)
+![Event](../assets/priv-cmd.png)
 
 ### 🔹 Detection Output
 
 ![Detection](../assets/priv-spl.png)
+
+### 🔹 Domain Abuse SPL
+![Domain](../assets/domain-abuse-spl.png)
 
 ---
 
