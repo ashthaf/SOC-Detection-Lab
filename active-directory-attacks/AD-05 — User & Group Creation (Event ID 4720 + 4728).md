@@ -109,7 +109,7 @@ index="main" EventCode=4728 Group_Name="Domain Admins"
 
 ### 🔹 Privilege Escalation Detection (4728)
 
-![Group Addition](../assets/assets/bg-user-grp-spl.png)
+![Group Addition](../assets/bg-user-grp-spl.png)
 
 ### 🔹 Command Execution Proof
 
@@ -117,7 +117,7 @@ index="main" EventCode=4728 Group_Name="Domain Admins"
 
 ### 🔹 ADUC Verification
 
-![AD Verification](../assets/assets/AD-proof-user-bg.png)
+![AD Verification](../assets/AD-proof-user-bg.png)
 
 ---
 
