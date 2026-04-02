@@ -94,7 +94,7 @@ Login Failure
 ![Failed Login](../assets/login-fail.png)
 
 Brute SPL
-![SPL](assets/brute-spl.png)
+![SPL](../assets/brute-spl.png)
 
 
 > * Detection results
