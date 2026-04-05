@@ -1,159 +1,157 @@
-# 🚨 SQL Injection Detection Report
+# SQL Injection (SQLi) – Detection & Analysis (DVWA Lab)
 
 ---
 
 ## 📌 Overview
 
-SQL Injection (SQLi) is a web application attack where an attacker manipulates backend database queries by injecting malicious SQL statements into input fields. This can lead to authentication bypass, data leakage, or full database compromise.
+SQL Injection is a web vulnerability that allows attackers to manipulate backend database queries by injecting malicious SQL payloads through user input fields.
+
+In this lab, the attack was performed on **DVWA (Damn Vulnerable Web Application)** and detected using **Splunk SIEM**.
 
 ---
 
-## 🎯 Objective
+## 🧪 Lab Setup
 
-The objective of this lab was to:
-
-* Simulate SQL Injection attacks on a vulnerable web application (DVWA)
-* Capture attack traces in web server logs
-* Detect malicious activity using Splunk SPL queries
-* Generate alerts for real-time monitoring
-
----
-
-## 🧪 Lab Environment
-
-| Component      | Details                                |
-| -------------- | -------------------------------------- |
-| Target App     | DVWA (Damn Vulnerable Web Application) |
-| Web Server     | Apache2                                |
-| Log Source     | /var/log/apache2/access.log            |
-| SIEM Tool      | Splunk Enterprise                      |
-| Log Forwarding | Splunk Universal Forwarder             |
+* Target: DVWA Web Application
+* Vulnerable Endpoint: `/DVWA/vulnerabilities/sqli/`
+* Log Source: Apache Web Server Logs
+* SIEM Tool: Splunk Enterprise
+* Attack Machine: Kali Linux / Browser
 
 ---
 
-## ⚔️ Attack Simulation
+## ⚔️ Attack Execution (Actual Steps Performed)
 
-### 🔹 Attack Method
+### Step 1: Access SQL Injection Page
 
-SQL Injection was performed through the DVWA login/input fields.
-
-### 🔹 Payload Used
+Navigated to:
 
 ```
+/DVWA/vulnerabilities/sqli/
+```
+
+---
+
+### Step 2: Inject Payload
+
+Entered the following payload in **User ID field**:
+
+```sql
 ' OR '1'='1
 ```
 
-### 🔹 Attack Explanation
+---
 
-* The payload manipulates the SQL query logic
-* `'1'='1'` always evaluates to TRUE
-* This bypasses authentication and grants unauthorized access
+### Step 3: Exploit Result
+
+* Application returned all records from database
+* Authentication logic bypassed
+* SQL query manipulated successfully
 
 ---
 
-## 📸 Evidence (Screenshots)
+## 📸 Evidence
 
-* DVWA SQL Injection exploitation
-  ![sql](../../assets/sqli-spl-2-clean.png)
-* Splunk logs showing injected payload
-  ![sql-1](../../assets/sqli-spl-2-clean.png)
-* Alert trigger in Splunk
-  ![tri](../../assets/sqlinjection-triggered-clean.png)
+### 🔹 SQL Injection Execution
+![sql](../../assets/sqli-attack-clean.png)
 
-
----
-
-## 📊 Log Analysis
-
-### 🔍 Observed Behavior
-
-* Suspicious HTTP GET requests
-* SQL keywords present in query parameters
-* Repeated attempts from same IP
-
-### 🔍 Example Log Pattern
+* Payload visible in URL:
 
 ```
-GET /DVWA/vulnerabilities/sqli/?id=' OR '1'='1 HTTP/1.1
+id=%27+OR+%271%27%3D%271
 ```
-
-### 🔍 Indicators of Compromise (IOCs)
-
-* Presence of SQL keywords:
-
-  * `OR 1=1`
-  * `UNION SELECT`
-  * `'--`
-* Abnormal query parameters
 
 ---
 
-## 🔍 SPL Query (Detection)
+### 🔹 Splunk Detection Logs
+
+Detected encoded payloads:
+
+* `%27` → `'`
+* `%3D` → `=`
+* `OR` condition usage
+
+Example log:
+
+```
+GET /DVWA/vulnerabilities/sqli/?id=%27+OR+%271%27%3D%271
+```
+
+---
+
+## 🔍 Detection in Splunk (Your Actual Queries)
+
+### Detection Query 1 (Encoded Payload Detection)
 
 ```spl
-index=webserver ("' OR '1'='1" OR "UNION" OR "SELECT" OR "1=1" OR "'--")
+index=webserver ("%27+OR" OR "%27" OR "%3D" OR "UNION")
 ```
-
-### ✅ Detection Logic
-
-* Searches for common SQL injection payload patterns
-* Matches malicious query strings in web logs
 
 ---
 
-## 🚨 Alert Configuration
+### Detection Query 2 (Generic SQLi Pattern)
 
-| Setting           | Value                   |
-| ----------------- | ----------------------- |
-| Alert Type        | Scheduled               |
-| Cron Schedule     | */5 * * * *             |
-| Time Range        | Last 15 minutes         |
-| Trigger Condition | Number of results > 0   |
-| Trigger Action    | Add to Triggered Alerts |
+```spl
+index=webserver ("' OR" OR "1=1" OR "UNION")
+```
+
+---
+
+### Detection Query 3 (Refined Detection)
+
+```spl
+index=webserver ("' OR" OR "1=1" OR "UNION" OR "%27+OR" OR "%3D")
+```
+
+---
+
+## 🚨 Alert Creation (Performed)
+
+* Alert Name: **SQL Injection**
+* Condition: `Number of results > 0`
+* Trigger Type: Scheduled / Real-time
+* Severity: **Critical**
+
+---
+
+## 📊 Triggered Alert Evidence
+
+* Alert successfully triggered in Splunk
+* Multiple events detected from same IP
+* Payloads identified in web logs
 
 ---
 
 ## 🧠 MITRE ATT&CK Mapping
 
-| Tactic         | Technique ID | Technique Name                    |
-| -------------- | ------------ | --------------------------------- |
-| Initial Access | T1190        | Exploit Public-Facing Application |
-
-### 🔍 Explanation
-
-* SQL Injection exploits vulnerabilities in public-facing applications
-* Allows attackers to gain unauthorized access to backend systems
+| Tactic            | Technique                         | ID    |
+| ----------------- | --------------------------------- | ----- |
+| Initial Access    | Exploit Public-Facing Application | T1190 |
+| Credential Access | Credentials from Web Apps         | T1555 |
+| Discovery         | Query Database                    | T1012 |
 
 ---
 
-## ⚠️ Severity
+## 💥 Impact
 
-**High**
-
-### Reason:
-
-* Can lead to full database compromise
-* Enables authentication bypass
-* Often used as an initial entry point
+* Authentication bypass
+* Unauthorized database access
+* Exposure of sensitive data
+* Potential full database compromise
 
 ---
 
-## 🛡️ Mitigation Strategies
+## 🛡️ Mitigation
 
-* Use parameterized queries / prepared statements
-* Implement input validation and sanitization
+* Use parameterized queries (Prepared Statements)
+* Input validation & sanitization
 * Deploy Web Application Firewall (WAF)
-* Restrict database permissions
-* Enable logging and monitoring
+* Restrict database privileges
 
 ---
 
-## ✅ Conclusion
+## 📚 Conclusion
 
-The SQL Injection attack was successfully simulated and detected using Splunk.
-The SPL query effectively identified malicious payloads in web logs, and alerts were configured to notify analysts in near real-time.
-
-This demonstrates how SIEM can be used to detect and respond to web-based attacks in a SOC environment.
+This lab demonstrated how SQL Injection can be exploited using simple payloads and how SIEM tools like Splunk can detect such attacks using log analysis and pattern matching.
 
 ---
-
