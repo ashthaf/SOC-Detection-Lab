@@ -55,6 +55,12 @@ Entered the following payload in **User ID field**:
 ### 🔹 SQL Injection Execution
 ![sql](../assets/sqli-attack-clean.png)
 
+🔹 SQL Injection spl
+![sql](../assets/sqli-spl-2-clean.png)
+
+🔹 SQL Injection triggered
+![sql](../assets/sqlinjection-triggered-clean.png)
+
 * Payload visible in URL:
 
 ```
