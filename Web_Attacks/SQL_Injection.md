@@ -54,11 +54,11 @@ SQL Injection was performed through the DVWA login/input fields.
 ## 📸 Evidence (Screenshots)
 
 * DVWA SQL Injection exploitation
-  ![sql](../../assets/sqli-attack_clean.png)
+  ![sql](../../assets/sqli-attack-clean.png)
 * Splunk logs showing injected payload
-  ![sql-1](../../assets/sqli-spl-2_clean.png)
+  ![sql-1](../../assets/sqli-spl-2-clean.png)
 * Alert trigger in Splunk
-  ![tri](../../assets/sqlinjection-triggered_clean.png)
+  ![tri](../../assets/sqlinjection-triggered-clean.png)
 
 
 ---
