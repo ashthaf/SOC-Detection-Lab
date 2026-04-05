@@ -53,7 +53,7 @@ Entered the following payload in **User ID field**:
 ## 📸 Evidence
 
 ### 🔹 SQL Injection Execution
-![sql](../../assets/sqli-attack-clean.png)
+![sql](../assets/sqli-attack-clean.png)
 
 * Payload visible in URL:
 
