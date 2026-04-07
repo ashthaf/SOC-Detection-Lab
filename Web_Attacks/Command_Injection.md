@@ -1,4 +1,8 @@
 # Command Injection – Detection & Analysis (DVWA Lab)
+![Attack](https://img.shields.io/badge/Attack-Command%20Injection-red)
+![Severity](https://img.shields.io/badge/Severity-High-orange)
+![Detection](https://img.shields.io/badge/Detection-Enabled-brightgreen)
+![MITRE](https://img.shields.io/badge/MITRE-T1059-purple)
 
 ---
 
