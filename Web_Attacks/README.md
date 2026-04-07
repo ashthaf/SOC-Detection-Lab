@@ -45,13 +45,13 @@ Splunk SIEM (Detection + Alerts)
 
 ## ⚔️ Attacks Covered
 
-| Attack Type                                 | Description                           | Detection |
-| ------------------------------------------- | ------------------------------------- | --------- |
-| [SQL Injection](./sql-injection.md)         | Authentication bypass & DB extraction | ✅         |
-| [Command Injection](./command-injection.md) | OS command execution                  | ✅         |
-| [File Inclusion (LFI)](./file-inclusion.md) | Access local system files             | ✅         |
-| [Cross-Site Scripting (XSS)](./xss.md)      | Client-side script injection          | ✅         |
-| [Brute Force](./brute-force.md)             | Multiple login attempts               | ✅         |
+| Attack Type | Description | Detection |
+|-------------|------------|----------|
+| [SQL Injection](./SQL_Injection.md) | Authentication bypass & DB extraction | ✅ |
+| [Command Injection](./Command_Injection.md) | OS command execution | ✅ |
+| [File Inclusion (LFI)](./File_Inclusion.md) | Access local system files | ✅ |
+| [Cross-Site Scripting (XSS)](./XSS.md) | Client-side script injection | ✅ |
+| [Brute Force](./Brute_Force.md) | Multiple login attempts | ✅ |
 
 ---
 
