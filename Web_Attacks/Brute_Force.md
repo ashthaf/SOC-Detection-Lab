@@ -1,4 +1,8 @@
 # Brute Force Attack (Web Login) – Detection & Analysis (DVWA Lab)
+![Attack](https://img.shields.io/badge/Attack-Brute%20Force-blue)
+![Severity](https://img.shields.io/badge/Severity-High-orange)
+![Detection](https://img.shields.io/badge/Detection-Enabled-brightgreen)
+![MITRE](https://img.shields.io/badge/MITRE-T1110-purple)
 
 ---
 
