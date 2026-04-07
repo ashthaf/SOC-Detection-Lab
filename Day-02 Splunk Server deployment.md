@@ -1,4 +1,4 @@
-# Setup-02 — Splunk Enterprise Deployment on AWS EC2
+# Setup-01 — Splunk Enterprise Deployment on AWS EC2
 
 ![AWS](https://img.shields.io/badge/Platform-AWS-FF9900?style=flat-square&logo=amazonaws)
 ![Splunk](https://img.shields.io/badge/SIEM-Splunk%20Enterprise-FF6B35?style=flat-square&logo=splunk)
