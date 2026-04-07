@@ -114,6 +114,10 @@ This project demonstrates the implementation of a Security Operations Center (SO
 
 👉 [View Active Directory Attack Lab](active-directory-attacks/README.md)
 
+## 🌐 Web Attacks
+
+👉 **[View Web Attacks Detection Lab](./Web_Attacks/)**  
+
 ## 👨‍💻 Author
 
 - Abdull Ashthaf
