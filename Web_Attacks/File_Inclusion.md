@@ -1,4 +1,8 @@
 # File Inclusion (LFI) – Detection & Analysis (DVWA Lab)
+![Attack](https://img.shields.io/badge/Attack-File%20Inclusion-blue)
+![Severity](https://img.shields.io/badge/Severity-High-orange)
+![Detection](https://img.shields.io/badge/Detection-Enabled-brightgreen)
+![MITRE](https://img.shields.io/badge/MITRE-T1083-purple)
 
 ---
 
