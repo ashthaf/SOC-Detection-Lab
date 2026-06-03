@@ -38,13 +38,14 @@ index="*"
 
 ---
 
+
 ## 📂 Labs
 
-* [E1 - Brute Force](./E1-Brute-Force.md)
-* [E2 - Process Execution](./E2-Process-Execution.md)
-* [E3 - Privilege Escalation](./E3-Privilege-Escalation.md)
-* [E4 - Log Cleared](./E4-Log-Cleared.md)
-* [E5 - Registry Persistence](./E5-Registry-Persistence.md)
+- [E1 - Brute Force](./E1-Brute-Force.md)
+- [E2 - Process Execution](./E2-Process-Execution.md)
+- [E3 - Privilege Escalation](./E3-Privilege-Escalation.md)
+- [E4 - Log Cleared](./E4-Log-Cleared.md)
+- [E5 - Registry Persistence](./E5-Registry-Persistence.md)
 
 ---
 
