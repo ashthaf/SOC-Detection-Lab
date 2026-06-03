@@ -46,7 +46,6 @@ index="*"
 - [E3 - Privilege Escalation](./E3-Privilege-Escalation.md)
 - [E4 - Log Cleared](./E4-Log-Cleared.md)
 - [E5 - Registry Persistence](./E5-Registry-Persistence.md)
-- 
 ---
 
 ## 🎯 Result
