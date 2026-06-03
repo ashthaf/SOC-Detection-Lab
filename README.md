@@ -118,6 +118,10 @@ This project demonstrates the implementation of a Security Operations Center (SO
 
 👉 **[View Web Attacks Detection Lab](./Web_Attacks/)**  
 
+## 🖥️ Endpoint Attacks
+
+👉 [View Endpoint Attack Detection Lab](./endpoint-attack-detection/README.md)
+
 ## 👨‍💻 Author
 
 - Abdull Ashthaf
