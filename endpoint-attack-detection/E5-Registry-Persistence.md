@@ -96,7 +96,7 @@ This creates a malicious startup entry.
 
 ### 📸 Screenshot — Attack Execution
 
-![attack](./images/e5-3.png)
+![attack](../assets/e5-05.png)
 
 ---
 
@@ -110,7 +110,9 @@ index="*" EventCode=4657
 
 ### 📸 Screenshot — Detection Result
 
-![detect](./images/e5-4.png)
+![detect](../assets/e5-06.png)
+
+![detect](../assets/e5-07.png)
 
 ---
 
@@ -130,7 +132,7 @@ index="*" EventCode=4657
 
 ### 📸 Screenshot — Alert Creation
 
-![alert](./images/e5-5.png)
+![alert](../assets/e5-08.png)
 
 ---
 
@@ -138,7 +140,7 @@ index="*" EventCode=4657
 
 ### 📸 Screenshot — Alerts Dashboard
 
-![alerts](./images/e5-6.png)
+![alerts](../assets/e5-09.png)
 
 ---
 
