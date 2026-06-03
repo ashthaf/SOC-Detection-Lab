@@ -1,4 +1,10 @@
 # 🛡️ Endpoint Attack Detection Lab
+![SOC Lab](https://img.shields.io/badge/SOC-Lab-blue)
+![SIEM](https://img.shields.io/badge/SIEM-Splunk-black)
+![Cloud](https://img.shields.io/badge/Cloud-AWS-orange)
+![Level](https://img.shields.io/badge/Level-Intermediate-yellow)
+![Project](https://img.shields.io/badge/Project-Detection%20Engineering-green)
+
 
 This project demonstrates real-world endpoint attacks detected using Splunk SIEM.
 
