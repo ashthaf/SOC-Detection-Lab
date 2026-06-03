@@ -1,24 +1,34 @@
-# 🚨 E1 — Brute Force Detection
+# 🚨 E1 — Brute Force Detection (Event ID 4625)
 
-## 🛠️ Attack
+![Banner](https://img.shields.io/badge/Attack-Brute%20Force-red)
 
-Multiple wrong password attempts.
+---
 
-### 📸 Attack
+## 🎯 Objective
+
+Simulate brute force login attempts and detect them using Splunk.
+
+---
+
+## 🛠️ Attack Simulation
+
+Multiple incorrect password attempts were entered on the Windows login screen.
+
+### 📸 Attack Evidence
 
 ![attack](./images/e1-1.png)
 
 ---
 
-## 🔍 Detection
+## 🔍 Detection Query
 
 ```spl
 index="*" EventCode=4625
-| stats count by Account_Name
+| stats count by Account_Name src_ip
 | where count > 5
 ```
 
-### 📸 Logs
+### 📸 Detection
 
 ![logs](./images/e1-2.png)
 
@@ -26,12 +36,23 @@ index="*" EventCode=4625
 
 ## 🚨 Alert
 
-### 📸 Alert
+* Trigger: More than 5 attempts
+* Schedule: Every 5 minutes
 
 ![alert](./images/e1-3.png)
 
 ---
 
+## 🧠 MITRE ATT&CK Mapping
+
+| Field     | Value             |
+| --------- | ----------------- |
+| Tactic    | Credential Access |
+| Technique | Brute Force       |
+| ID        | T1110             |
+
+---
+
 ## ✅ Result
 
-Brute force detected successfully.
+Brute force attack successfully detected and alert triggered.
