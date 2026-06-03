@@ -36,7 +36,13 @@ Enable:
 
 ### 📸 Screenshot — Audit Registry Enabled
 
-![gpo](./images/e5-1.png)
+![gpo](../assets/e5-01.png)
+
+![gpo](../assets/e5-02.png)
+
+![gpo](../assets/e5-03.png)
+
+
 
 ---
 
@@ -74,7 +80,7 @@ Check:
 
 ### 📸 Screenshot — Registry Auditing Entry
 
-![audit](./images/e5-2.png)
+![audit](../assets/e5-04.png)
 
 ---
 
