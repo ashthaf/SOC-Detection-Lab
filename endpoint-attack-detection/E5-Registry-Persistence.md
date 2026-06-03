@@ -1,6 +1,11 @@
 # 🧬 E5 — Registry Persistence Detection (Event ID 4657)
 
-![Banner](https://img.shields.io/badge/Attack-Registry%20Persistence-green)
+![Attack](https://img.shields.io/badge/Attack-Registry%20Persistence-green)
+![Event ID](https://img.shields.io/badge/Event%20ID-4657-blue)
+![Severity](https://img.shields.io/badge/Severity-High-critical)
+![MITRE](https://img.shields.io/badge/MITRE-T1547.001-orange)
+![Status](https://img.shields.io/badge/Status-Detected-success)
+
 
 ---
 
