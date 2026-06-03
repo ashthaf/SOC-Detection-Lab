@@ -35,6 +35,15 @@ index="*" (EventCode=4720 OR EventCode=4732)
 * Trigger: Any match
 
 ---
+![attack](./assets/e3-01.png)
+
+![attack](./assets/e3-02.png)
+
+![attack](./assets/e3-03.png)
+
+![attack](./assets/e3-04.png)
+
+![attack](./assets/e3-05.png)
 
 ## 🧠 MITRE ATT&CK Mapping
 
