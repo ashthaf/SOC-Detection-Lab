@@ -17,7 +17,7 @@ Detect unauthorized privilege escalation.
 
 ### 📸 Attack Evidence
 
-![attack](./images/e3-1.png)
+![attack](../assets/privproof1.png)
 
 ---
 
