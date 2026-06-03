@@ -16,7 +16,7 @@ Multiple incorrect password attempts were entered on the Windows login screen.
 
 ### 📸 Attack Evidence
 
-![attack](../images/assets/e1-01.png)
+![attack](../assets/e1-01.png)
 
 ---
 
@@ -30,8 +30,8 @@ index="*" EventCode=4625
 
 ### 📸 Detection
 
-![logs](./images/assets/e1-02.png)
-![logs](./images/assets/assets/e1-03.png)
+![logs](../assets/e1-02.png)
+![logs](../assets/assets/e1-03.png)
 
 ---
 
@@ -40,8 +40,8 @@ index="*" EventCode=4625
 * Trigger: More than 5 attempts
 * Schedule: Every 5 minutes
 
-![alert](./images/assets/e1-04.png)
-![alert](./images/assets/e1-05.png)
+![alert](../assets/e1-04.png)
+![alert](../assets/e1-05.png)
 
 ---
 
