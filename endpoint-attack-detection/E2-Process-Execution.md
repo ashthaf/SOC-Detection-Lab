@@ -35,6 +35,15 @@ index="*" EventCode=4688 New_Process_Name="*powershell*"
 
 ---
 
+![attack](../assets/e2-01.png)
+
+![attack](../assets/e2-02.png)
+
+![attack](../assets/e2-03.png)
+
+
+
+
 ## 🧠 MITRE ATT&CK Mapping
 
 | Field     | Value                                         |
