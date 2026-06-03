@@ -16,7 +16,7 @@ Multiple incorrect password attempts were entered on the Windows login screen.
 
 ### 📸 Attack Evidence
 
-![attack](./images/assets/e1-01.png)
+![attack](../images/assets/e1-01.png)
 
 ---
 
