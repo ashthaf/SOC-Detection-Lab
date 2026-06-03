@@ -1,6 +1,11 @@
 # 🧹 E4 — Log Clearing Detection (Event ID 1102)
 
-![Banner](https://img.shields.io/badge/Attack-Log%20Clearing-black)
+![Attack](https://img.shields.io/badge/Attack-Log%20Clearing-black)
+![Event ID](https://img.shields.io/badge/Event%20ID-1102-blue)
+![Severity](https://img.shields.io/badge/Severity-Critical-red)
+![MITRE](https://img.shields.io/badge/MITRE-T1070.001-orange)
+![Status](https://img.shields.io/badge/Status-Detected-success)
+
 
 ---
 
