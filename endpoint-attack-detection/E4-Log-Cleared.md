@@ -18,7 +18,7 @@ wevtutil cl security
 
 ### 📸 Attack Evidence
 
-![attack](./images/e4-1.png)
+![attack](../assets/e4-01.png)
 
 ---
 
@@ -36,6 +36,12 @@ index="*" EventCode=1102
 index="*" EventCode=1102
 | table _time ComputerName
 ```
+
+![attack](../assets/e4-02.png)
+
+![attack](../assets/e4-03png)
+
+![attack](../assets/e4-04.png)
 
 ---
 
