@@ -1,6 +1,11 @@
 # 🔐 E3 — Privilege Escalation Detection (4720, 4732)
 
-![Banner](https://img.shields.io/badge/Attack-Privilege%20Escalation-purple)
+![Attack](https://img.shields.io/badge/Attack-Privilege%20Escalation-purple)
+![Event ID](https://img.shields.io/badge/Event%20ID-4720%2F4732-blue)
+![Severity](https://img.shields.io/badge/Severity-Critical-red)
+![MITRE](https://img.shields.io/badge/MITRE-T1098-orange)
+![Status](https://img.shields.io/badge/Status-Detected-success)
+
 
 ---
 
