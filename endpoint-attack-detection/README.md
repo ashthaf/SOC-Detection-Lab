@@ -1,33 +1,47 @@
-# 🖥️ Endpoint Attack Detection
+# 🛡️ Endpoint Attack Detection Lab
 
-This module covers real-world endpoint attack simulations performed on a Windows EC2 instance and detected using Splunk SIEM.
+This project demonstrates real-world endpoint attacks detected using Splunk SIEM.
 
-All attacks were executed manually on the endpoint, logs were forwarded to Splunk via Universal Forwarder, and SPL queries were built to detect and alert on each attack.
+---
+
+## ⚙️ Setup
+
+* Windows EC2
+* Splunk Enterprise
+* Universal Forwarder
 
 ---
 
 ## 📌 Index Used
 
-index=*
+```spl
+index="*"
+```
 
 ---
 
-## 🔥 Attack Labs Summary
+## 🚨 Attacks Covered
 
-| Lab | Attack | Event ID | MITRE | Severity |
-|-----|--------|----------|-------|----------|
-| E1 | Brute Force Login Simulation | 4625 | T1110 | 🔴 High |
-| E2 | PowerShell Process Execution | 4688 | T1059.001 | 🔴 High |
-| E3 | Privilege Escalation via Admin Group | 4720, 4732 | T1098 | 🔴 Critical |
-| E4 | Security Log Cleared | 1102 | T1070.001 | 🔴 Critical |
-| E5 | Registry Persistence | 4657 | T1547.001 | 🔴 High |
+| ID | Attack               | Event ID  |
+| -- | -------------------- | --------- |
+| E1 | Brute Force          | 4625      |
+| E2 | PowerShell Execution | 4688      |
+| E3 | Privilege Escalation | 4720,4732 |
+| E4 | Log Cleared          | 1102      |
+| E5 | Registry Persistence | 4657      |
 
 ---
 
-## 🔗 Lab Files
+## 📂 Labs
 
-- [E1 - Brute Force Detection](./E1-Brute-Force-Detection.md)
-- [E2 - Process Execution Detection](./E2-Process-Execution-Detection.md)
-- [E3 - Privilege Escalation Detection](./E3-Privilege-Escalation-Detection.md)
-- [E4 - Log Cleared Detection](./E4-Log-Cleared-Detection.md)
-- [E5 - Registry Persistence Detection](./E5-Registry-Persistence-Detection.md)
+* [E1 - Brute Force](./E1-Brute-Force.md)
+* [E2 - Process Execution](./E2-Process-Execution.md)
+* [E3 - Privilege Escalation](./E3-Privilege-Escalation.md)
+* [E4 - Log Cleared](./E4-Log-Cleared.md)
+* [E5 - Registry Persistence](./E5-Registry-Persistence.md)
+
+---
+
+## 🎯 Result
+
+All attacks detected and alerts triggered successfully.
