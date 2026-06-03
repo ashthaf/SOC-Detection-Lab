@@ -16,7 +16,7 @@ Executed PowerShell on the endpoint.
 
 ### 📸 Attack Evidence
 
-![attack](./images/e2-1.png)
+![attack](../assets/powershell....png)
 
 ---
 
