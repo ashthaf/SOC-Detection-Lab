@@ -28,6 +28,8 @@ CloudWatch enables:
 
 ![SNS Setup](../../assets/12.png)
 
+![SNS Setup](../../assets/13.png)
+
 ## ⚙️ Step 1: Enable CloudTrail → CloudWatch Logs
 
 1. Go to AWS Console → CloudTrail
