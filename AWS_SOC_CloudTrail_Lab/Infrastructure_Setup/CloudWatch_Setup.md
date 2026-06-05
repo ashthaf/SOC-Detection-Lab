@@ -52,3 +52,10 @@ CloudWatch enables:
 ```bash
 { $.eventName = "CreateUser" }
 
+```
+## 🔗 Navigation
+
+⬅️ Previous: [SQS Setup](./SQS_Setup.md)
+
+➡️ Next: [Splunk Integration](./Splunk_Integration.md)
+
