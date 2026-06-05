@@ -108,7 +108,11 @@ SQS acts as the **buffer + queue system**
 
 ## 📸 Screenshots
 
-![SQS Setup](../../assets/sqs-setup.png)
+![SQS Setup](../../assets/14.png)
+
+![SQS Setup](../../assets/15.png)
+
+![SQS Setup](../../assets/16.png)
 
 ---
 
