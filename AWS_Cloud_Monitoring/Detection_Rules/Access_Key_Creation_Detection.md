@@ -87,7 +87,11 @@ Number of results > 0
 
 ## 📸 Screenshot
 
-![Access Key Detection](../../assets/accesskey-detection.png)
+![Access Key Detection](../../assets/access2.png)
+
+![Access Key Detection](../../assets/access3.png)
+
+![Access Key Detection](../../assets/access4.png)
 
 ---
 
