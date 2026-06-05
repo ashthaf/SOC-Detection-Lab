@@ -60,7 +60,7 @@ OR (recommended for real-world):
 
 ## 📸 Screenshots
 
-![IAM Setup](../../assets/iam-setup.png)
+![IAM Setup](../../assets/01.png)
 
 ---
 
