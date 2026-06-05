@@ -108,7 +108,16 @@ eventName=AddUserToGroup
 
 ---
 
-## 🔗 Next Step
+---
+## 🔗 Navigation
 
-➡️ Detection Rule:
-`../Detection_Rules/Policy_Modification_Detection.md`
+⬅️ Previous Attack:  
+👉 **[IAM User Creation](./IAM_User_Creation.md)**
+
+➡️ Detection Rule:  
+👉 **[Policy Modification Detection](../Detection_Rules/Policy_Modification_Detection.md)**
+
+➡️ Next Attack:  
+👉 **[Access Key Creation](./Access_Key_Creation.md)**
+
+---
