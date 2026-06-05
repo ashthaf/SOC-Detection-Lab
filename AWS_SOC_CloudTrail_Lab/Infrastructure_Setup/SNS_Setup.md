@@ -133,6 +133,8 @@ SNS enables:
 
 ---
 
-## 🔗 Next Step
+## 🔗 Navigation
 
-➡️ `SQS_Setup.md`
+⬅️ Previous: [S3 Setup](./S3_Setup.md)
+
+➡️ Next: [SQS Setup](./SQS_Setup.md)
