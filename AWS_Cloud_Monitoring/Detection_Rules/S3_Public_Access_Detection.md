@@ -1,5 +1,9 @@
 # 🚨 S3 Public Access Detection
 
+![Detection](https://img.shields.io/badge/Detection-Data%20Exposure-green)
+![LogSource](https://img.shields.io/badge/Logs-CloudTrail-blue)
+![Severity](https://img.shields.io/badge/Severity-Critical-darkred)
+
 ## 🎯 Objective
 
 Detect when an S3 bucket is modified to allow public access, potentially exposing sensitive data.
