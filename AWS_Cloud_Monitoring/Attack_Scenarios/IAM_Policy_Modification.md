@@ -1,5 +1,8 @@
 # ⚔️ IAM Policy Modification Attack
 
+![Attack](https://img.shields.io/badge/Attack-Privilege%20Escalation-purple)
+![Technique](https://img.shields.io/badge/T1098-Account%20Manipulation-red)
+![Severity](https://img.shields.io/badge/Severity-High-red)
 ## 🎯 Objective
 
 Simulate an attacker modifying IAM permissions to gain elevated privileges.
