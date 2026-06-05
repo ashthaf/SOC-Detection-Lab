@@ -117,6 +117,13 @@ Number of results > 0
 
 ---
 
-## 🔗 Related Attack
+---
+## 🔗 Navigation
 
-➡️ `../Attack_Scenarios/IAM_User_Creation.md`
+⬅️ Attack Scenario:  
+👉 **[IAM User Creation](../Attack_Scenarios/IAM_User_Creation.md)**
+
+➡️ Next Detection:  
+👉 **[Policy Modification Detection](./Policy_Modification_Detection.md)**
+
+---
