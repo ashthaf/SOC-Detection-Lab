@@ -88,7 +88,11 @@ Number of results > 0
 
 ## 📸 Screenshot
 
-![Policy Detection](../../assets/policy-detection.png)
+![Policy Detection](../../assets/policy2.png)
+
+![Policy Detection](../../assets/policy3.png)
+
+![Policy Detection](../../assets/policy4.png)
 
 ---
 
