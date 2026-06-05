@@ -95,4 +95,4 @@ All screenshots are stored in:
 
 ## 👨‍💻 Author
 
-Abdull Ashthaf
+Abdull Ashthaf CK
