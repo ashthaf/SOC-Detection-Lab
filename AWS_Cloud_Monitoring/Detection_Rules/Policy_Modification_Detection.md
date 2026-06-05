@@ -123,6 +123,16 @@ Investigate:
 
 ---
 
-## 🔗 Related Attack
+---
+## 🔗 Navigation
 
-➡️ `../Attack_Scenarios/IAM_Policy_Modification.md`
+⬅️ Previous Detection:  
+👉 **[IAM User Creation Detection](./IAM_User_Creation_Detection.md)**
+
+⬅️ Attack Scenario:  
+👉 **[IAM Policy Modification](../Attack_Scenarios/IAM_Policy_Modification.md)**
+
+➡️ Next Detection:  
+👉 **[Access Key Detection](./Access_Key_Creation_Detection.md)**
+
+---
