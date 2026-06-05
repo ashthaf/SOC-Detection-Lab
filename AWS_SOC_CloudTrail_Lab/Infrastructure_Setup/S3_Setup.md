@@ -148,6 +148,8 @@ S3 is critical for:
 
 ---
 
-## 🔗 Next Step
+## 🔗 Navigation
 
-➡️ `SNS_Setup.md`
+⬅️ Previous: [CloudTrail Setup](./CloudTrail_Setup.md)
+
+➡️ Next: [SNS Setup](./SNS_Setup.md)
