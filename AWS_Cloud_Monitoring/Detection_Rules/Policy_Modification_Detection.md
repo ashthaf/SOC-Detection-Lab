@@ -1,5 +1,9 @@
 # 🚨 IAM Policy Modification Detection
 
+![Detection](https://img.shields.io/badge/Detection-Privilege%20Escalation-green)
+![LogSource](https://img.shields.io/badge/Logs-CloudTrail-blue)
+![Severity](https://img.shields.io/badge/Severity-High-red)
+
 ## 🎯 Objective
 
 Detect privilege escalation attempts by monitoring IAM policy changes in AWS CloudTrail logs using Splunk.
