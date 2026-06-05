@@ -123,6 +123,13 @@ Investigate:
 
 ---
 
-## 🔗 Related Attack
+---
+## 🔗 Navigation
 
-➡️ `../Attack_Scenarios/Security_Group_Modification.md`
+⬅️ Previous Detection:  
+👉 **[S3 Public Access Detection](./S3_Public_Access_Detection.md)**
+
+⬅️ Attack Scenario:  
+👉 **[Security Group Modification](../Attack_Scenarios/Security_Group_Modification.md)**
+
+---
