@@ -1,5 +1,9 @@
 # ⚔️ Access Key Creation Attack
 
+![Attack](https://img.shields.io/badge/Attack-Credential%20Access-blue)
+![Technique](https://img.shields.io/badge/T1528-Cloud%20Credentials-red)
+![Severity](https://img.shields.io/badge/Severity-High-red)
+
 ## 🎯 Objective
 
 Simulate an attacker generating access keys to gain programmatic access to AWS.
