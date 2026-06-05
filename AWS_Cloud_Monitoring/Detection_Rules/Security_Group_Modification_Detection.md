@@ -87,7 +87,11 @@ Number of results > 0
 
 ## 📸 Screenshot
 
-![SG Detection](../../assets/sg-detection.png)
+![SG Detection](../../assets/sg2.png)
+
+![SG Detection](../../assets/sg3.png)
+
+![SG Detection](../../assets/sg4.png)
 
 ---
 
