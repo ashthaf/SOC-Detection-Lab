@@ -122,6 +122,16 @@ Investigate:
 
 ---
 
-## 🔗 Related Attack
+---
+## 🔗 Navigation
 
-➡️ `../Attack_Scenarios/Access_Key_Creation.md`
+⬅️ Previous Detection:  
+👉 **[Policy Modification Detection](./Policy_Modification_Detection.md)**
+
+⬅️ Attack Scenario:  
+👉 **[Access Key Creation](../Attack_Scenarios/Access_Key_Creation.md)**
+
+➡️ Next Detection:  
+👉 **[S3 Public Access Detection](./S3_Public_Access_Detection.md)**
+
+---
