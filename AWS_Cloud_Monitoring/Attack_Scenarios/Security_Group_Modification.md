@@ -1,5 +1,9 @@
 # ⚔️ Security Group Modification Attack
 
+![Attack](https://img.shields.io/badge/Attack-Network%20Exposure-blue)
+![Technique](https://img.shields.io/badge/T1562-Modify%20Firewall-red)
+![Severity](https://img.shields.io/badge/Severity-High-red)
+
 ## 🎯 Objective
 
 Simulate an attacker modifying a security group to allow unrestricted access to AWS resources.
