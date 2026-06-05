@@ -79,7 +79,15 @@ Number of results > 0
 
 ## 📸 Screenshot
 
-![Detection](../../assets/iam-detection.png)
+![Detection](../../assets/IAM3.png)
+
+![Detection](../../assets/IAM4.png)
+
+![Detection](../../assets/IAM5.png)
+
+![Detection](../../assets/IAM6.png)
+
+![Detection](../../assets/IAM7.png)
 
 ---
 
