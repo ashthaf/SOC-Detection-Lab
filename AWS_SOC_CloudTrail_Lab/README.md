@@ -10,7 +10,7 @@ The objective is to collect AWS activity logs, forward them to Splunk, create de
 
 ## Architecture
 
-![Architecture](Architecture/architecture.png)
+![Architecture](../assets/architecture.png)
 
 ---
 
