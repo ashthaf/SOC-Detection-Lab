@@ -60,7 +60,7 @@ An attacker modifies security group rules to:
 
 ## 📸 Screenshot
 
-![Security Group Attack](../../assets/sg-attack.png)
+![Security Group Attack](../../assets/sg1.png)
 
 ---
 
