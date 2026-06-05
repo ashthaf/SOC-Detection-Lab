@@ -1,5 +1,9 @@
 # 🚨 Security Group Modification Detection
 
+![Detection](https://img.shields.io/badge/Detection-Network%20Exposure-green)
+![LogSource](https://img.shields.io/badge/Logs-CloudTrail-blue)
+![Severity](https://img.shields.io/badge/Severity-High-red)
+
 ## 🎯 Objective
 
 Detect when security group rules are modified to allow public access, exposing AWS resources to the internet.
