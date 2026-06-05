@@ -1,5 +1,9 @@
 # ⚔️ IAM User Creation Attack
 
+![Attack](https://img.shields.io/badge/Attack-Persistence-blue)
+![Technique](https://img.shields.io/badge/T1136-Create%20Account-red)
+![Severity](https://img.shields.io/badge/Severity-Medium-yellow)
+
 ## 🎯 Objective
 
 Simulate an attacker creating a new IAM user to establish persistence within the AWS environment.
