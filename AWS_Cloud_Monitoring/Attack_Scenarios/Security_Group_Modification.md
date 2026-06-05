@@ -101,7 +101,13 @@ eventName=ModifySecurityGroupRules
 
 ---
 
-## 🔗 Next Step
+---
+## 🔗 Navigation
 
-➡️ Detection Rule:
-`../Detection_Rules/CloudTrail_Tampering_Detection.md`
+⬅️ Previous Attack:  
+👉 **[S3 Public Access](./S3_Public_Access.md)**
+
+➡️ Detection Rule:  
+👉 **[Security Group Detection](../Detection_Rules/Security_Group_Modification_Detection.md)**
+
+---
