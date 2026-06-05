@@ -86,7 +86,11 @@ This helps detect:
 
 ## 📸 Screenshots
 
-![CloudTrail Setup](../../assets/cloudtrail.png)
+![CloudTrail Setup](../../assets/03.png)
+
+![CloudTrail Setup](../../assets/04.png)
+
+![CloudTrail Setup](../../assets/05.png)
 
 ---
 
