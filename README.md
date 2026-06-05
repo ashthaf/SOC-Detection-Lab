@@ -103,7 +103,6 @@ This SOC lab consists of **two integrated pipelines**:
 
 ## 🏗️ Full SOC Architecture
 
-> 📍 Located in `/assets/architecture.png`
 
 ![SOC Architecture](./assets/mainarch.png)
 
