@@ -1,5 +1,9 @@
 # 🚨 IAM User Creation Detection
 
+![Detection](https://img.shields.io/badge/Detection-User%20Creation-green)
+![LogSource](https://img.shields.io/badge/Logs-CloudTrail-blue)
+![Severity](https://img.shields.io/badge/Severity-Medium-yellow)
+
 ## 🎯 Objective
 
 Detect unauthorized creation of IAM users using AWS CloudTrail logs in Splunk.
