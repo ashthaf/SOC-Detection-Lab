@@ -73,7 +73,7 @@ This is one of the most critical cloud misconfigurations.
 
 ## 📸 Screenshot
 
-![S3 Public Attack](../../assets/s3-public-attack.png)
+![S3 Public Attack](../../assets/s31.png)
 
 ---
 
