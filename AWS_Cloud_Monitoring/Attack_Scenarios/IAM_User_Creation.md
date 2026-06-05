@@ -42,7 +42,9 @@ This is a common persistence technique used after initial compromise.
 
 ## 📸 Screenshot
 
-![IAM Attack](../../assets/iam-attack.png)
+![IAM Attack](../../assets/IAM1.png)
+
+![IAM Attack](../../assets/IAM2.png)
 
 ---
 
