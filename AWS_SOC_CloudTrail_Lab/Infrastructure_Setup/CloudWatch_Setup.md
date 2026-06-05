@@ -14,6 +14,16 @@ CloudWatch enables:
 
 ---
 
+## screenshots
+
+![CloudTrail Setup](../../assets/06.png)
+
+![CloudTrail Setup](../../assets/07.png)
+
+![CloudTrail Setup](../../assets/08.png)
+
+![CloudTrail Setup](../../assets/09.png)
+
 ## ⚙️ Step 1: Enable CloudTrail → CloudWatch Logs
 
 1. Go to AWS Console → CloudTrail
@@ -36,6 +46,3 @@ CloudWatch enables:
 ```bash
 { $.eventName = "CreateUser" }
 
------
-
-##screenshots
