@@ -126,7 +126,19 @@ aws_index
 
 ## 📸 Screenshots
 
-![Splunk Setup](../../assets/splunk-setup.png)
+![Splunk Setup](../../assets/17.png)
+
+![Splunk Setup](../../assets/18.png)
+
+![Splunk Setup](../../assets/19.png)
+
+![Splunk Setup](../../assets/20.png)
+
+![Splunk Setup](../../assets/21.png)
+
+![Splunk Setup](../../assets/22.png)
+
+![Splunk Setup](../../assets/23.png)
 
 ---
 
