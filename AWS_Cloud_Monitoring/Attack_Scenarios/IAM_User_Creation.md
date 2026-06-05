@@ -85,7 +85,13 @@ eventName=CreateUser
 
 ---
 
-## 🔗 Next Step
+---
+## 🔗 Navigation
 
-➡️ Detection Rule:
-`Detection_Rules/IAM_User_Creation_Detection.md`
+➡️ Detection Rule:  
+👉 **[IAM User Creation Detection](../Detection_Rules/IAM_User_Creation_Detection.md)**
+
+➡️ Next Attack:  
+👉 **[IAM Policy Modification](./IAM_Policy_Modification.md)**
+
+---
