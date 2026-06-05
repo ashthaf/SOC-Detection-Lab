@@ -113,8 +113,16 @@ eventName=PutBucketPublicAccessBlock
 | Exfiltration | Exfiltration Over Web Service | T1567 |
 
 ---
+---
+## 🔗 Navigation
 
-## 🔗 Next Step
+⬅️ Previous Attack:  
+👉 **[Access Key Creation](./Access_Key_Creation.md)**
 
-➡️ Detection Rule:
-`../Detection_Rules/S3_Public_Access_Detection.md`
+➡️ Detection Rule:  
+👉 **[S3 Public Access Detection](../Detection_Rules/S3_Public_Access_Detection.md)**
+
+➡️ Next Attack:  
+👉 **[Security Group Modification](./Security_Group_Modification.md)**
+
+---
