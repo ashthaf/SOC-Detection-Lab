@@ -6,12 +6,6 @@
 ![SOC](https://img.shields.io/badge/Type-SOC%20Lab-purple)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-## 📌 Overview
-
-This project demonstrates a **real-world SOC (Security Operations Center) pipeline** built using AWS and Splunk.
-
-It simulates cloud attacks, detects them using Splunk, and generates alerts based on AWS CloudTrail logs.
-
 ---
 
 ## 🏗️ Architecture
@@ -20,85 +14,88 @@ It simulates cloud attacks, detects them using Splunk, and generates alerts base
 
 ---
 
-## ⚙️ Pipeline Flow
+## 📌 Overview
 
-```
-AWS → CloudTrail → S3 → SNS → SQS → Splunk → Detection → Alerts
-```
+This project demonstrates a real-world **SOC (Security Operations Center)** pipeline built using **AWS + Splunk**.
 
----
-
-## 🎯 Objectives
-
-* Monitor AWS activity using CloudTrail
-* Detect suspicious actions
-* Build Splunk detection rules
-* Simulate real-world attacks
-* Map detections to MITRE ATT&CK
+It simulates cloud attacks and detects them using **CloudTrail logs**, enabling alerting and monitoring workflows.
 
 ---
 
-## ⚔️ Attack Scenarios
+## 📂 Project Structure
 
-| Attack                                                                         | Description          |
-| ------------------------------------------------------------------------------ | -------------------- |
-| [IAM User Creation](Attack_Scenarios/IAM_User_Creation.md)                     | Persistence          |
-| [Policy Modification](Attack_Scenarios/IAM_Policy_Modification.md)             | Privilege Escalation |
-| [Access Key Creation](Attack_Scenarios/Access_Key_Creation.md)                 | Credential Abuse     |
-| [S3 Public Access](Attack_Scenarios/S3_Public_Access.md)                       | Data Exposure        |
-| [Security Group Modification](Attack_Scenarios/Security_Group_Modification.md) | Network Exposure     |
+### ⚙️ Infrastructure Setup
 
----
-
-## 🚨 Detection Rules
-
-| Detection                                                                            | Description                 |
-| ------------------------------------------------------------------------------------ | --------------------------- |
-| [IAM User Detection](Detection_Rules/IAM_User_Creation_Detection.md)                 | Detect user creation        |
-| [Policy Detection](Detection_Rules/Policy_Modification_Detection.md)                 | Detect privilege escalation |
-| [Access Key Detection](Detection_Rules/Access_Key_Creation_Detection.md)             | Detect credential creation  |
-| [S3 Detection](Detection_Rules/S3_Public_Access_Detection.md)                        | Detect public buckets       |
-| [Security Group Detection](Detection_Rules/Security_Group_Modification_Detection.md) | Detect open ports           |
+- 🔹 [IAM Setup](./Infrastructure_Setup/IAM_Setup.md)
+- 🔹 [CloudTrail Setup](./Infrastructure_Setup/CloudTrail_Setup.md)
+- 🔹 [S3 Setup](./Infrastructure_Setup/S3_Setup.md)
+- 🔹 [SNS Setup](./Infrastructure_Setup/SNS_Setup.md)
+- 🔹 [SQS Setup](./Infrastructure_Setup/SQS_Setup.md)
+- 🔹 [Splunk Integration](./Infrastructure_Setup/Splunk_Integration.md)
 
 ---
 
-## 🧱 Infrastructure Setup
+### ⚔️ Attack Scenarios → 🚨 Detection Rules
 
-* [IAM Setup](Infrastructure_Setup/IAM_Setup.md)
-* [CloudTrail Setup](Infrastructure_Setup/CloudTrail_Setup.md)
-* [S3 Setup](Infrastructure_Setup/S3_Setup.md)
-* [SNS Setup](Infrastructure_Setup/SNS_Setup.md)
-* [SQS Setup](Infrastructure_Setup/SQS_Setup.md)
-* [Splunk Integration](Infrastructure_Setup/Splunk_Integration.md)
+| Attack | Detection |
+|------|----------|
+| [IAM User Creation](../AWS_Cloud_Monitoring/Attack_Scenarios/IAM_User_Creation.md) | [Detection](../AWS_Cloud_Monitoring/Detection_Rules/IAM_User_Creation_Detection.md) |
+| [Policy Modification](../AWS_Cloud_Monitoring/Attack_Scenarios/IAM_Policy_Modification.md) | [Detection](../AWS_Cloud_Monitoring/Detection_Rules/Policy_Modification_Detection.md) |
+| [Access Key Creation](../AWS_Cloud_Monitoring/Attack_Scenarios/Access_Key_Creation.md) | [Detection](../AWS_Cloud_Monitoring/Detection_Rules/Access_Key_Detection.md) |
+| [S3 Public Access](../AWS_Cloud_Monitoring/Attack_Scenarios/S3_Public_Access.md) | [Detection](../AWS_Cloud_Monitoring/Detection_Rules/S3_Public_Access_Detection.md) |
+| [Security Group Modification](../AWS_Cloud_Monitoring/Attack_Scenarios/Security_Group_Modification.md) | [Detection](../AWS_Cloud_Monitoring/Detection_Rules/Security_Group_Detection.md) |
+
+---
+
+## 🧭 Guided Workflow (Recommended Path)
+
+👉 Follow this order for best understanding:
+
+1. ⚙️ Setup Infrastructure  
+2. ⚔️ Perform Attack  
+3. 📜 Analyze Logs  
+4. 🚨 Create Detection  
+5. 🔔 Trigger Alerts  
+
+---
+
+## 🚀 Quick Navigation
+
+### 🔹 Start Here
+
+➡️ [IAM Setup](./Infrastructure_Setup/IAM_Setup.md)
+
+---
+
+### 🔹 First Attack Flow
+
+➡️ [IAM User Creation Attack](../AWS_Cloud_Monitoring/Attack_Scenarios/IAM_User_Creation.md)  
+➡️ [IAM User Creation Detection](../AWS_Cloud_Monitoring/Detection_Rules/IAM_User_Creation_Detection.md)
+
+---
+
+### 🔹 Continue Lab
+
+➡️ [Next: Policy Modification Attack](../AWS_Cloud_Monitoring/Attack_Scenarios/IAM_Policy_Modification.md)
 
 ---
 
 ## 🧠 MITRE ATT&CK Mapping
 
-[View MITRE Mapping](MITRE_ATTACK/MITRE_Mapping.md)
+➡️ [View MITRE Mapping](../AWS_Cloud_Monitoring/MITRE_ATTACK/MITRE_Mapping.md)
 
 ---
 
-## 📸 Screenshots
+## 📌 Outcome
 
-All screenshots are stored in:
-
-```
-/assets
-```
-
----
-
-## 🚀 Key Learnings
-
-* Cloud log ingestion pipeline
-* Detection engineering using Splunk
-* AWS attack simulation
-* SOC alert creation
-* Cloud security monitoring
+✔️ Hands-on AWS Security Monitoring  
+✔️ Real SOC Detection Engineering Workflow  
+✔️ Cloud Attack Simulation + Detection  
+✔️ Splunk SIEM Integration  
 
 ---
 
 ## 👨‍💻 Author
 
-Abdull Ashthaf CK
+**Abdull Ashthaf**  
+Cybersecurity Enthusiast | SOC Analyst Path 🚀
