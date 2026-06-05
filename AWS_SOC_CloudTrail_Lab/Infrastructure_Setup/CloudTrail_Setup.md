@@ -139,6 +139,8 @@ CloudTrail logs will later be used to:
 
 ---
 
-## 🔗 Next Step
+## 🔗 Navigation
 
-➡️ `S3_Setup.md`
+⬅️ Previous: *Start of Setup*
+
+➡️ Next: [S3 Setup](./S3_Setup.md)
