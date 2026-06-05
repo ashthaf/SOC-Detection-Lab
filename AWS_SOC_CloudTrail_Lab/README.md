@@ -1,9 +1,10 @@
-# ☁️ AWS Cloud Security Monitoring Lab (SOC Project)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![Splunk](https://img.shields.io/badge/SIEM-Splunk-green)
 ![CloudTrail](https://img.shields.io/badge/Logs-CloudTrail-blue)
 ![SOC](https://img.shields.io/badge/Type-SOC%20Lab-purple)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+
+# ☁️ AWS Cloud Security Monitoring Lab (SOC Project)
 
 ## 📌 Overview
 
