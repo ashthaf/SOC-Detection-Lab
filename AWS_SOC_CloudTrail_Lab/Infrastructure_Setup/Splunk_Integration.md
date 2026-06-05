@@ -185,7 +185,8 @@ Splunk enables:
 - Monitor ingestion errors
 
 ---
+## 🔗 Navigation
 
-## 🔗 Next Step
+⬅️ Previous: [CloudWatch Setup](./CloudWatch_Setup.md)
 
-➡️ Move to Attack Simulation
+➡️ Next: *Setup Completed ✅*
