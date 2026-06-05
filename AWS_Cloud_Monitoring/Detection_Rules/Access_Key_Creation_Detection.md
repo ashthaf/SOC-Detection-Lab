@@ -1,5 +1,9 @@
 # 🚨 Access Key Creation Detection
 
+![Detection](https://img.shields.io/badge/Detection-Credential%20Creation-green)
+![LogSource](https://img.shields.io/badge/Logs-CloudTrail-blue)
+![Severity](https://img.shields.io/badge/Severity-High-red)
+
 ## 🎯 Objective
 
 Detect creation of new AWS access keys which may indicate unauthorized credential generation.
