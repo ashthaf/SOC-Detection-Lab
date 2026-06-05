@@ -1,5 +1,9 @@
 # ⚔️ S3 Bucket Public Access Attack
 
+![Attack](https://img.shields.io/badge/Attack-Data%20Exposure-orange)
+![Technique](https://img.shields.io/badge/T1567-Exfiltration-red)
+![Severity](https://img.shields.io/badge/Severity-Critical-darkred)
+
 ## 🎯 Objective
 
 Simulate an attacker making an S3 bucket publicly accessible, exposing sensitive data.
