@@ -90,7 +90,8 @@ Go back to S3:
 
 ## 📸 Screenshots
 
-![SNS Setup](../../assets/sns-setup.png)
+![SNS Setup](../../assets/10.png)
+
 
 ---
 
