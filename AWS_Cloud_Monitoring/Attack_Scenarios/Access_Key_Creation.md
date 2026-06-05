@@ -41,7 +41,7 @@ An attacker creates access keys for an IAM user to:
 
 ## 📸 Screenshot
 
-![Access Key Attack](../../assets/accesskey-attack.png)
+![Access Key Attack](../../assets/access1.png)
 
 ---
 
