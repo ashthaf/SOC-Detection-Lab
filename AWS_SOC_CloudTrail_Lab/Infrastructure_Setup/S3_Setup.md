@@ -102,7 +102,7 @@ If manual:
 
 ## 📸 Screenshots
 
-![S3 Setup](../../assets/s3-setup.png)
+![S3 Setup](../../assets/s3.png)
 
 ---
 
