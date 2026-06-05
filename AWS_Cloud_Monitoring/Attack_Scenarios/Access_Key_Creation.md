@@ -69,7 +69,16 @@ eventName=CreateAccessKey
 
 ---
 
-## 🔗 Next Step
+---
+## 🔗 Navigation
 
-➡️ Detection Rule:
-`../Detection_Rules/Access_Key_Creation_Detection.md`
+⬅️ Previous Attack:  
+👉 **[IAM Policy Modification](./IAM_Policy_Modification.md)**
+
+➡️ Detection Rule:  
+👉 **[Access Key Detection](../Detection_Rules/Access_Key_Creation_Detection.md)**
+
+➡️ Next Attack:  
+👉 **[S3 Public Access](./S3_Public_Access.md)**
+
+---
