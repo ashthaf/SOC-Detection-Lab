@@ -35,3 +35,7 @@ CloudWatch enables:
 ### Example Filter (IAM User Creation)
 ```bash
 { $.eventName = "CreateUser" }
+
+-----
+
+##screenshots
