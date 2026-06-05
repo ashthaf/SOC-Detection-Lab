@@ -133,6 +133,16 @@ Investigate:
 
 ---
 
-## 🔗 Related Attack
+---
+## 🔗 Navigation
 
-➡️ `../Attack_Scenarios/S3_Public_Access.md`
+⬅️ Previous Detection:  
+👉 **[Access Key Detection](./Access_Key_Creation_Detection.md)**
+
+⬅️ Attack Scenario:  
+👉 **[S3 Public Access](../Attack_Scenarios/S3_Public_Access.md)**
+
+➡️ Next Detection:  
+👉 **[Security Group Detection](./Security_Group_Modification_Detection.md)**
+
+---
