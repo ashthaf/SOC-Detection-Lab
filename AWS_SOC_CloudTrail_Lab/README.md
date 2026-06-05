@@ -10,7 +10,7 @@
 
 ## 🏗️ Architecture
 
-![Architecture](../assets/architecture.png)
+![Architecture](../assets/newarch.png)
 
 ---
 
