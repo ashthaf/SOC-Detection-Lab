@@ -64,7 +64,7 @@ This is one of the most critical attacks in cloud environments.
 
 ## 📸 Screenshot
 
-![Policy Attack](../../assets/policy-attack.png)
+![Policy Attack](../../assets/policy1.png)
 
 ---
 
