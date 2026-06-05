@@ -97,7 +97,11 @@ Number of results > 0
 
 ## 📸 Screenshot
 
-![S3 Detection](../../assets/s3-detection.png)
+![S3 Detection](../../assets/s32.png)
+
+![S3 Detection](../../assets/s33.png)
+
+![S3 Detection](../../assets/s34.png)
 
 ---
 
