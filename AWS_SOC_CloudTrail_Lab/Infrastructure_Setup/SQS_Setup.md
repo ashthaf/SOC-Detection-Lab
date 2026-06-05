@@ -161,6 +161,8 @@ You should see messages arriving.
 
 ---
 
-## 🔗 Next Step
+## 🔗 Navigation
 
-➡️ `Splunk_Integration.md`
+⬅️ Previous: [SNS Setup](./SNS_Setup.md)
+
+➡️ Next: [CloudWatch Setup](./CloudWatch_Setup.md)
