@@ -1,13 +1,5 @@
 # 📊 CloudWatch Logs & Detection Setup
 
-![AWS](https://img.shields.io/badge/AWS-CloudWatch-orange?style=for-the-badge)
-![Cloud](https://img.shields.io/badge/Cloud-AWS-blue?style=for-the-badge)
-![SIEM](https://img.shields.io/badge/SIEM-Splunk-green?style=for-the-badge)
-![Logs](https://img.shields.io/badge/Logs-CloudWatch-purple?style=for-the-badge)
-![Detection](https://img.shields.io/badge/Detection-RealTime-red?style=for-the-badge)
-![Type](https://img.shields.io/badge/Type-Infrastructure_Setup-darkblue?style=for-the-badge)
-![Project](https://img.shields.io/badge/Project-SOC_Lab-brightgreen?style=for-the-badge)
-
 ## 🎯 Objective
 Integrate CloudTrail with CloudWatch Logs for real-time monitoring and alerting.
 
