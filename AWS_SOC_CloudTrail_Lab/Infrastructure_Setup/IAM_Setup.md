@@ -62,6 +62,8 @@ OR (recommended for real-world):
 
 ![IAM Setup](../../assets/01.png)
 
+![IAM Setup](../../assets/02.png)
+
 ---
 
 ## ✅ Validation
